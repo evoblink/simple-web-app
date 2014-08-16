@@ -17,7 +17,7 @@
 				<div class="row-fluid">
 					
 					<div class="span2">
-						<button class="btn" id="localhost">Local MITREid Connect Server (default setup)</button>
+						<button class="btn" id="localhost">Local E-Territoires Connect Server (default setup)</button>
 					</div>
 				
 					<div class="span2">
@@ -28,8 +28,8 @@
 				<div class="row-fluid">
 	
 					<div class="span8">
-						<form action="openid_connect_login" method="get">
-							<input type="text" class="input-xxlarge" name="identifier" id="identifier" />
+						<form id="login_form" action="openid_connect_login" method="get">
+							<input type="text" class="input-xxlarge" name="identifier" id="identifier" value="http://localhost:8080/openid-connect-server-webapp/"/>
 							<input type="submit" value="Log In" />
 						</form>
 					</div>
@@ -48,6 +48,7 @@
 		$('#mitreidorg').on('click', function() {
 			$('#identifier').val('user@mitreid.org');
 		});
+                $("#login_form").submit();
 		
 	});
 </script>

@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.mitre</groupId>
-	<artifactId>simple-web-app</artifactId>
+	<artifactId>eterritoires-simple-web-app</artifactId>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
@@ -12,7 +12,8 @@
 		<org.aspectj-version>1.6.9</org.aspectj-version>
 		<org.slf4j-version>1.5.10</org.slf4j-version>
 		<spring.security.version>3.1.4.RELEASE</spring.security.version>
-		<mitreid-connect-version>1.1.8</mitreid-connect-version>
+		<!--<mitreid-connect-version>1.1.7-SNAPSHOT</mitreid-connect-version>-->
+		<mitreid-connect-version>1.1.10-SNAPSHOT</mitreid-connect-version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -140,7 +141,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.1</version>
 				<configuration>
 					<source>${java-version}</source>
 					<target>${java-version}</target>
@@ -149,7 +149,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
-				<version>2.4</version>
 				<configuration>
 					<warName>${project.artifactId}</warName>
 				</configuration>
@@ -157,7 +156,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
-				<version>2.8</version>
 				<executions>
 					<execution>
 						<id>install</id>
@@ -178,5 +176,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	<name>simple-web-app</name>
+	<name>E-Territoires simple-web-app</name>
 </project>
