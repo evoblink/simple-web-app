@@ -26,10 +26,5 @@ ABOUT:
 
 See CONTRIBUTORS.txt for development credits.
 
-eterritoires-simple-web-app concept originally by:
-Ben Werdmuller <ben@elgg.com> and David Tosh <dave@elgg.com>
-
 eterritoires-simple-web-app is released under the GNU Public License (GPL), which
 is supplied in this distribution as LICENSE.
-
-For installation instructions, please see the INSTALL file.
