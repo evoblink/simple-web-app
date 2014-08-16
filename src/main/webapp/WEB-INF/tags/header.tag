@@ -9,7 +9,7 @@
     <base href="${config.issuer}">
 
     <meta charset="utf-8">
-    <title>Simple Web App - ${title}</title>
+    <title>E-Territoires Client A - ${title}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
